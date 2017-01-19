@@ -5,16 +5,17 @@ PHP rest api server + Angular asyncronous validation form (with Bootstrap)
 
 1. Скачайте и распакуйте архив leko-registration-form.7z:
 
-Структура директорий:
+    Структура директорий:
 
-db - БД
-leko-registration-form - исходники проекта (frontend и backend - в директории rest-api)
-ТЗ - ваше техзадание
+    - db - БД
+
+    - leko-registration-form - исходники проекта (frontend и backend - в директории rest-api)
+
+    - ТЗ - техзадание
 
 2. Создайте БД из скрипта leko.sql 
 
-3. Создайте пользователя leko с паролем leko
-(или задайте параметры соединения с БД в файле config.php)
+3. Создайте пользователя leko с паролем leko (или задайте параметры соединения с БД в файле config.php)
 
 4. Создайте виртуальный хост. Пример записи из httpd-vhosts.conf
 
@@ -31,6 +32,5 @@ LoadModule rewrite_module modules/mod_rewrite.so
 
 6. в php.ini разрешите расширения: pdo
 extension=php_pdo_mysql.dll
-
 
 http://leko-registration-form/
